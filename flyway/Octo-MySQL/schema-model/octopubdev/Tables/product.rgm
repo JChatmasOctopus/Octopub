@@ -33,6 +33,9 @@ table "octopubdev"."product" {
     column "Books" {
       type = varchar(100)
     }
+    column "BooksAgain" {
+      type = varchar(100)
+    }
   )
   primaryKey = {
     columns = [

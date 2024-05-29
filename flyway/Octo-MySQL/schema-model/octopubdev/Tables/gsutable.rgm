@@ -1,8 +1,0 @@
-table "octopubdev"."gsutable" {
-  columns = (
-    column "Test1" {
-      type = varchar(100)
-    }
-  )
-}
-

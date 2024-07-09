@@ -30,10 +30,10 @@ table "octopubdev"."product" {
     column "new_product" {
       type = varchar(100)
     }
-    column "Books" {
+    column "BooksAgain" {
       type = varchar(100)
     }
-    column "BooksAgain" {
+    column "Books" {
       type = varchar(100)
     }
   )

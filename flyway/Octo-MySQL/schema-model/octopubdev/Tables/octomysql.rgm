@@ -1,0 +1,11 @@
+table "octopubdev"."octomysql" {
+  columns = (
+    column "Test" {
+      type = varchar(100)
+    }
+    column "Run" {
+      type = varchar(100)
+    }
+  )
+}
+

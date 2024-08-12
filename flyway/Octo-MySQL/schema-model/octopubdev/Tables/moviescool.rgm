@@ -1,0 +1,32 @@
+table "octopubdev"."moviescool" {
+  columns = (
+    column "id" {
+      type = int
+      null = NOT NULL
+    }
+    column "title" {
+      type = varchar(255)
+      null = NOT NULL
+    }
+    column "director" {
+      type = varchar(255)
+    }
+    column "release_year" {
+      type = year
+    }
+    column "genre" {
+      type = varchar(100)
+    }
+    column "rating" {
+      type = decimal(3,1)
+    }
+  )
+  primaryKey = {
+    columns = [
+      id
+    ]
+    name = "PRIMARY"
+    objectType = primaryKey
+  }
+}
+

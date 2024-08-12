@@ -1,8 +1,0 @@
-table "octopubdev"."octomysql" {
-  columns = (
-    column "Test" {
-      type = varchar(100)
-    }
-  )
-}
-

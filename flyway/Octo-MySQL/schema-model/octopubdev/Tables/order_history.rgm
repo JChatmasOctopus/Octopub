@@ -3,6 +3,18 @@ table "octopubdev"."order_history" {
     column "order_id" {
       type = int
     }
+    column "Order_Amount" {
+      type = varchar(100)
+    }
+    column "Order_test" {
+      type = varchar(100)
+    }
+    column "Order-11" {
+      type = varchar(100)
+    }
+    column "BooksZuck" {
+      type = varchar(100)
+    }
   )
 }
 

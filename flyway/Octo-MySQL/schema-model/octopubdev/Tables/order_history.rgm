@@ -6,6 +6,9 @@ table "octopubdev"."order_history" {
     column "Order_Amount" {
       type = varchar(100)
     }
+    column "Order_test" {
+      type = varchar(100)
+    }
   )
 }
 

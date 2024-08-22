@@ -1,0 +1,11 @@
+table "octopubdev"."octohux" {
+  columns = (
+    column "Flyway" {
+      type = varchar(100)
+    }
+    column "Deploy" {
+      type = varchar(100)
+    }
+  )
+}
+

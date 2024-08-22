@@ -1,0 +1,14 @@
+table "octopubdev"."underwatervr" {
+  columns = (
+    column "Book" {
+      type = varchar(100)
+    }
+    column "Stock" {
+      type = varchar(100)
+    }
+    column "UnitPrice" {
+      type = varchar(100)
+    }
+  )
+}
+
